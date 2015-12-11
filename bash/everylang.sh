@@ -55,11 +55,14 @@ person() {
     fi
 }
 
-echo "Start"
-new person bob
-attrset bob name Bob
-attrset bob field engineering
-call bob sayname
-attrget bob field
-echo ${obj_bob_attrs[@]}
+echo "Hello. Time to play duck duck goose"
+echo "Please enter a list of names separated by spaces"
+read -a players
+for player in players
+do
+    new person ${!player}
+done
+echo "Thanks, now a number of rounds to play"
+read num
+
 echo "Done"
