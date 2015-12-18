@@ -11,35 +11,39 @@ Goals:
 
 Language|Status|Comments
 ---:|:---:|---
-Ada|-|
-Assembly|-|
-Bash|Started|Attempt at "objects" is pretty sad
-Basic|-|Not sure if QB45 or BASIC
-Brainfuck|-|Not looking forward to this one
-C|-|
-Clojure|-|
-Cobol|-|
-C++|-|
-C#|-|
-D|-|
-Dart|-|
-Erlang|-|
-Fortran|-|
-Go|Started|
-Groovy|-|
-Haskell|-|
-Java|-|
-Javascript|Almost Done|
-Lisp|-|
-Lua|-|
-Objective-C|-|
-Pascal|-|
-Perl|-|
-PHP|-|
-Python|Done|Not the most pythonic, but it works
-R|-|
-Ruby|-|So, nemesis, we meet
-Rust|-|
-Scala|-|
-Scratch|-|But how?
-Swift|-|
+Ada|`-----`|
+Assembly|`-----`|
+Bash|`||||-`|Attempt at "objects" is pretty sad
+Basic|`||---`|http://stevehanov.ca/blog/index.php?id=92
+Brainfuck|`-----`|Not looking forward to this one
+C|`||---`|
+Clojure|`-----`|
+Cobol|`-----`|
+C++|`-|---`|
+C#|`-----`|
+D|`-----`|
+Dart|`-----`|
+Erlang|`-----`|
+Fortran|`-----`|
+Go|`|||--`|
+Groovy|`-----`|
+Haskell|`-----`|
+Java|`-----`|
+Javascript|`||||-`|Uses a web browser (including html/css)
+Lisp|`-----`|
+Lua|`-----`|
+Objective-C|`-----`|
+Pascal|`-----`|
+Perl|`-|---`|
+PHP|`||---`|
+Python|`|||||`|Not the most pythonic, but it works
+R|`-----`|
+Ruby|`-----`|So, nemesis, we meet
+Rust|`-----`|
+Scala|`-----`|
+Scratch|`|----`|But how?
+Swift|`|----`|
+
+Progress Key:
+
+There are 5 bars that represent 5 stages of development for each language. These stages are (in order) `language familiarity`, `environment is set up`, `working code`, `implementation in progress`, `complete`. A `+` will be added to any language that actually has an impressive/pretty result.
