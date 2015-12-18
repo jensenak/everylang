@@ -8,3 +8,38 @@ Goals:
 * Implement user input and related output
 * If possible, generate an error and handle it
 
+
+Language|Status|Comments
+---:|:---:|---
+Ada|-|
+Assembly|-|
+Bash|Started|Attempt at "objects" is pretty sad
+Basic|-|Not sure if QB45 or BASIC
+Brainfuck|-|Not looking forward to this one
+C|-|
+Clojure|-|
+Cobol|-|
+C++|-|
+C#|-|
+D|-|
+Dart|-|
+Erlang|-|
+Fortran|-|
+Go|Started|
+Groovy|-|
+Haskell|-|
+Java|-|
+Javascript|Almost Done|
+Lisp|-|
+Lua|-|
+Objective-C|-|
+Pascal|-|
+Perl|-|
+PHP|-|
+Python|Done|Not the most pythonic, but it works
+R|-|
+Ruby|-|So, nemesis, we meet
+Rust|-|
+Scala|-|
+Scratch|-|But how?
+Swift|-|
