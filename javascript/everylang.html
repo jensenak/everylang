@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<title>
+    Everylang Javascript Demo
+</title>
+<link rel="stylesheet" href="everylang.css">
+</head>
+
+<body>
+<div id="input-area">
+    <h3>Enter Players</h3>
+    <div class="box">
+        <label>Name<input type="text" id="name"></label>
+        <label>Age<input type="text" id="age"></label>
+        <label>Fitness
+            <select id="fitness">
+                <option value="1">Fit</option>
+                <option value="2">Average</option>
+                <option value="3">Potato</option>
+            </select>
+        </label>
+        <button id="adder">Add</button>
+    </div>
+    <div class="box">
+        <label>Rounds to Play<input type="text" id="rounds"></label>
+        <button id="go">Play</button>
+    </div>
+</div>
+
+<div id="player-area">
+    <h3>Current Players</h3>
+</div>
+
+<div id="output-area">
+    <h3>Game Status</h3>
+</div>
+
+<script src="everylang.js"></script>
+</body>
+</html>

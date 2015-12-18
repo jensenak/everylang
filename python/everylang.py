@@ -42,7 +42,6 @@ rounds = int(input("How many rounds do you want to play? "))
 
 goose = randint(0, person.count)
 players[goose].updateStats(False)
-stats = {}
 for r in range(rounds):
     newGoose = randint(0, person.count-1)
     while newGoose == goose:
