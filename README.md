@@ -29,7 +29,7 @@ Go|`|||--`|
 Groovy|`-----`|
 Haskell|`-----`|
 Java|`-----`|
-Javascript|`||||-`|Uses a web browser (including html/css)
+Javascript|`|||||`|Uses a web browser (including html/css)
 Lisp|`-----`|
 Lua|`-----`|
 Objective-C|`-----`|

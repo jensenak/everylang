@@ -4,7 +4,7 @@
     var go = document.getElementById("go");
     adder.addEventListener("click", addPlayer);
     go.addEventListener("click", startGame);
-});
+})();
 
 var playerList = [];
 
@@ -28,10 +28,8 @@ function player(name, age, fitness) {
         }
     }
     this.showStats = function () {
-        var s = this.name + " was it " + this.it + " times, and won " + this.wins + "times";
-        var out = document.createElement("div");
-        out.textContent = s;
-        document.getElementById("output-area").appendChild(out);
+        var s = this.name + " was it " + this.it + " times, and won " + this.wins + " times";
+        log(s, true);
     }
 }
 
@@ -54,7 +52,7 @@ function domElement(pl) {
     document.getElementById("player-area").appendChild(this.body);
 }
 
-function addPlayer () {
+function addPlayer() {
     "use strict";
     var name = document.getElementById('name');
     var age = document.getElementById('age');
@@ -65,6 +63,15 @@ function addPlayer () {
     name.value = "";
     age.value = "";
     fitness.value = "";
+}
+
+var verbose = document.getElementById("verbose");
+function log(msg, force) {
+    if (verbose.checked || force) {
+        var el = document.createElement("div");
+        el.textContent = msg;
+        document.getElementById("output-area").appendChild(el);
+    }
 }
 
 function startGame() {
@@ -84,13 +91,16 @@ function startGame() {
         while (goose === it) {
             goose = Math.floor(Math.random() * playerList.length);
         }
+        log(playerList[it].name + " is it, and has chosen " + playerList[goose].name + " as the goose.");
         var itr = playerList[it].run();
         var gooser = playerList[goose].run();
         if (gooser > itr) {
+            log(" --> " + playerList[it].name + " wins");
             playerList[goose].updateStats(false);
             playerList[it].updateStats(true);
             it = goose;
         } else {
+            log(" --> " + playerList[goose].name + " wins");
             playerList[goose].updateStats(true);
             playerList[it].updateStats(false);
         }

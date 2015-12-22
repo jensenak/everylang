@@ -1,9 +1,21 @@
 .box {
     border: 1px solid #888;
-    padding: 5px;
+    padding: 10px;
     margin: 10px;
+}
+
+div {
+    padding: 5px;
+    margin: 5px;
 }
 
 label {
     display: block;
+    padding: 5px;
+}
+
+span {
+    border: 1px solid #eee;
+    padding: 5px;
+    margin: 10px;
 }
