@@ -1,0 +1,5 @@
+12/23/15 - I grew up with QuickBASIC 4.5, which I thought was fantastic. It's the language that got me into programming and technology. However, now that I've experienced more sophisticated languages, it's a bit painful to look at. As a kid, I just loved that graphical programming was as simple as: 
+
+    SCREEN 12
+    CLS
+    ... draw commands ...

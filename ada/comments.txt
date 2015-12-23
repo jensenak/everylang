@@ -1,0 +1,1 @@
+12/23/15 - Ada looks pretty interesting because of the different way that typing is handled. At this point, I haven't had much luck with documentation though. Docs I've found are quite old and ... not user-friendly.

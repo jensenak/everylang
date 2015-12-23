@@ -1,0 +1,1 @@
+12/23/15 - I was introduced to Go about a year ago in my workplace. We started using it for a major project, and I loved it. Since, I've read many things about it and can see a few shortcomings. I still really enjoy it for web-oriented tasks and find its syntax pleasing. This challenge isn't very challenging for me because I'm already familiar with the language.

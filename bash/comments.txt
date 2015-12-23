@@ -1,0 +1,1 @@
+12/23/15 - Bash is interesting... it's not so much a *programming language* as it is a collection of shell utilities that can be executed from a file (plus a few control flow statements). The design goals were totally different than those found in most languages, so it can be a bit of a trick to get it to behave the way you want. 

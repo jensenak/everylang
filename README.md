@@ -11,7 +11,7 @@ Goals:
 
 Language|Status|Comments
 ---:|:---:|---
-Ada|`-----`|
+Ada|`||---`|
 Assembly|`-----`|
 Bash|`||||-`|Attempt at "objects" is pretty sad
 Basic|`||---`|http://stevehanov.ca/blog/index.php?id=92
