@@ -46,7 +46,7 @@ sayname() {
 person() {
     if [[ "${1}x" == "attrsx" ]]
     then
-        echo "([name]=unset [age]=unset [type]=person)"
+        echo "([name]=unset [speed]=unset)"
     fi
 
     if [[ "${1}x" == "methodsx" ]]
@@ -56,8 +56,15 @@ person() {
 }
 
 echo "Hello. Time to play duck duck goose"
-echo "Please enter a list of names separated by spaces"
-read -a players
+players=()
+while true
+do
+    echo "Enter player name: "
+    read player
+    echo "Enter player speed ([slow]0 - 9[fast]): "
+    read speed
+    new person 
+done
 for player in players
 do
     new person ${!player}
