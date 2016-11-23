@@ -1,6 +1,6 @@
-This is a project in which I will attempt to write a simple program in as many different languages as possible. 
+This is a project in which I will attempt to write a simple program in a bunch of different languages. 
 
-Goals: 
+###Goals: 
 
 * Include some form of data associated with methods (object-like)
 * Include an iterative loop
@@ -8,6 +8,13 @@ Goals:
 * Implement user input and related output
 * If possible, generate an error and handle it
 
+###Progress:
+
+`--------------------------------
+- = not started
++ = ground work
+= = in progress
+| = done`
 
 Language|Status|Comments
 ---:|:---:|---
@@ -44,6 +51,6 @@ Scala|`-----`|
 Scratch|`|----`|But how?
 Swift|`|----`|
 
-Progress Key:
+###Progress Key:
 
 There are 5 bars that represent 5 stages of development for each language. These stages are (in order) `language familiarity`, `environment is set up`, `working code`, `implementation in progress`, `complete`. A `+` will be added to any language that actually has an impressive/pretty result.
