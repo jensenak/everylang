@@ -10,11 +10,14 @@ This is a project in which I will attempt to write a simple program in a bunch o
 
 ###Progress:
 
-`--------------------------------
+```
+1........10........20........30.
+||==++++------------------------
 - = not started
 + = ground work
 = = in progress
-| = done`
+| = done
+```
 
 Language|Status|Comments
 ---:|:---:|---
